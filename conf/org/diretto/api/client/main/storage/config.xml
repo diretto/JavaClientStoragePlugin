@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="config.xsd">
+
+	<name>org.diretto.api.main.storage</name>
+	<api-version>v2</api-version>
+	<service-class>org.diretto.api.client.main.storage.StorageServiceImpl</service-class>
+	
+	<upload>
+		<max-parallel-uploads>8</max-parallel-uploads>
+	</upload>
+	
+	<download>
+		<max-parallel-downloads>8</max-parallel-downloads>
+	</download>
+	
+</config>
